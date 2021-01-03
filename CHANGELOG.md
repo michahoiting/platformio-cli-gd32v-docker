@@ -21,5 +21,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 Initial release.
 
 [Unreleased]: https://github.com/michahoiting/platformio-cli-gd32v-docker/compare/master...v0.1.0
-[v0.1.0]: https://github.com/michahoiting/platformio-cli-gd32v-docker/v0.1.0
+[v0.1.0]: https://github.com/michahoiting/platformio-cli-gd32v-docker/tree/v0.1.0
 
