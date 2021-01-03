@@ -25,3 +25,7 @@ Building the image yourself is also possible, via:
 ```sh
 docker build --tag mhoiting/platformio-cli-gd32v .
 ```
+
+## References
+- https://hub.docker.com/repository/docker/mhoiting/platformio-cli-gd32v-docker
+
