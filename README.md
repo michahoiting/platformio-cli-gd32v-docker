@@ -9,23 +9,24 @@ Contains the complete installation of PlatformIO Core (CLI) for working with RIS
 2. Pull the image directly from DockerHub:
 
 ```sh
-docker pull mhoiting/platformio-cli-gd32v
+docker pull mhoiting/platformio-cli-gd32v-docker
 ```
 
 ## Usage
 
 Ideally use this container within a CI/CD pipeline of your choice.
 
-Alternatively, you could use it interactively: `docker run -it -v <host_dir>:<container_dir> mhoiting/platformio-cli-gd32v /bin/bash`.
+Alternatively, you could use it interactively: `docker run -it -v <host_dir>:<container_dir> mhoiting/platformio-cli-gd32v-docker /bin/bash`.
+
 
 ## Build
 
 Building the image yourself is also possible, via:
 
 ```sh
-docker build --tag mhoiting/platformio-cli-gd32v .
+docker build --tag mhoiting/platformio-cli-gd32v-docker .
 ```
 
 ## References
-- https://hub.docker.com/repository/docker/mhoiting/platformio-cli-gd32v-docker
+- https://hub.docker.com/repository/docker/mhoiting/platformio-cli-gd32v-docker-docker
 
